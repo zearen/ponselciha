@@ -90,7 +90,7 @@ tsVowelP' kana c = (<?> "vowel") $ do
 
 tsVowelP :: Stream s m Char => Hyakuyonjuuon -> ParsecT s u m String
 tsVowelP kana = try $ do
-    s <- try specialP <|> fmap (:[]) space
+    s <- try specialP <|> fmap (const "") space
     (when $ s == [tooten]) $ unexpected "',' before vowel"
     v <- tsVowelP' kana '-'
     return $ s ++ v

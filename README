@@ -1,6 +1,6 @@
 .i lerfu fanva fo lo fadni ke lojbo lerfu fi le ponjo ke lojbo lerfu pe la .ziren.
 
-.i mu'i lenu djica lenu sampla zbasu kuku .e'u batkyci'a fi la .terminal (to lazni toi) fe zoi .sy.
+.i mu'i lenu djica lenu sampla zbasu kuku .e'u batkyci'a fi la .terminal. (to lazni toi) fe zoi .sy.
 $ git clone https://github.com/zearen-wover/ponselciha.git
 $ cabal install
 $ ponselciha --help
